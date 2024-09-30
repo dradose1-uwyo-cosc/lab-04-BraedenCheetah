@@ -1,12 +1,9 @@
-# Your Name Here
+# Braeden Kirby
 # UWYO COSC 1010
-# Submission Date
+# 09/30/24
 # Lab 03 
-# Lab Section: 
-# Sources, people worked with, help given to: 
-# your
-# comments
-# here
+# Lab Section: 13
+# Sources, people worked with, help given to: Matthew Curl, Danny Kuening, Rylan Galloway
 
 
 
@@ -99,7 +96,32 @@ min_temps = [
 # You cannot use any pre-existing functions (like mean()) and must perform the calculations manually.
 # Output the results of both calculations.
 
+sum_min = 0
+
+sum_max = 0
+
+amount = len(min_temps)
+
+for i in range(amount):
+    sum_min += min_temps[i]
+    sum_max += max_temps[i]
+
+
+average_min_temp = sum_min / amount
+
+average_max_temp = sum_max / amount
+
+print("Average Minimum Tmeperature during the year 2023 in Larmamie was", average_min_temp, "degrees fahrenheit.")
+
+print("Average Maximum Tmeperature during the year 2023 in Laramie was", average_max_temp, "degrees fahrenheit.")
+
 # For the next part, determine the highest and lowest recorded temperatures.
 # HINT: You can find this information without using any logic or looping.
 
+coldest_day = min(min_temps)
 
+hottest_day = max(max_temps)
+
+print("The coldest day during 2023 in Laramie was", coldest_day, "degrees fahrenheit.")
+
+print("The coldes day during 2023 in Laramie was", hottest_day, "degrees fahrenheit.")
