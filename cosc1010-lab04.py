@@ -111,9 +111,9 @@ average_min_temp = sum_min / amount
 
 average_max_temp = sum_max / amount
 
-print("Average Minimum Tmeperature during the year 2023 in Larmamie was", average_min_temp, "degrees fahrenheit.")
+print("Average Minimum Temperature during the year 2023 in Larmamie was", average_min_temp, "degrees fahrenheit.")
 
-print("Average Maximum Tmeperature during the year 2023 in Laramie was", average_max_temp, "degrees fahrenheit.")
+print("Average Maximum Temperature during the year 2023 in Laramie was", average_max_temp, "degrees fahrenheit.")
 
 # For the next part, determine the highest and lowest recorded temperatures.
 # HINT: You can find this information without using any logic or looping.
