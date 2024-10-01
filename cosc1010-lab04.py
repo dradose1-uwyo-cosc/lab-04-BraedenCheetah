@@ -122,6 +122,6 @@ coldest_day = min(min_temps)
 
 hottest_day = max(max_temps)
 
-print("The coldest day during 2023 in Laramie was", coldest_day, "degrees fahrenheit.")
+print("The coldest day in Laramie was", coldest_day, "degrees fahrenheit last year.")
 
-print("The coldes day during 2023 in Laramie was", hottest_day, "degrees fahrenheit.")
+print("The hottest day in Laramie was", hottest_day, "degrees fahrenheit last year.")
