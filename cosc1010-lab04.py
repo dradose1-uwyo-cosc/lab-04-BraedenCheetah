@@ -1,9 +1,9 @@
 # Braeden Kirby
 # UWYO COSC 1010
-# 09/30/24
+# 10/3/24
 # Lab 03 
 # Lab Section: 13
-# Sources, people worked with, help given to: Matthew Curl, Danny Kuening, Rylan Galloway
+# Sources, people worked with, help given to: Matthew Curl, Danny Kuening, Isaiah Timbers
 
 
 
@@ -99,6 +99,8 @@ min_temps = [
 sum_min = 0
 
 sum_max = 0
+
+#I can use amount as the total amount of temperatures for both the min and max because they both have the same amount of values
 
 amount = len(min_temps)
 
